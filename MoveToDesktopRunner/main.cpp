@@ -186,7 +186,7 @@ INT WINAPI WinMain(HINSTANCE instance, HINSTANCE prevInstance, LPSTR cmdLine, IN
 		{
 			error = GetLastError();
 			char buffer[128] = "";
-			sprintf_s(buffer, sizeof(buffer), "Error on calling SetWindowsHookEx(WH_CALLWNDPROC)!\nErrorCode: %d", error);
+			sprintf_s(buffer, sizeof(buffer), "Error on calling SetWindowsHookExA(WH_CALLWNDPROC)!\nErrorCode: %d", error);
 			throw buffer;
 		}
 		try
