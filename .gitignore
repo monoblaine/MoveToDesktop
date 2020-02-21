@@ -10,3 +10,4 @@ Utils/*.exe
 *.aps
 *.VC.db
 packages/
+/.vs/MoveToDesktop/v16/*
