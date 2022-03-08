@@ -11,3 +11,4 @@ Utils/*.exe
 *.VC.db
 packages/
 /.vs/MoveToDesktop/v16/*
+.vs/
