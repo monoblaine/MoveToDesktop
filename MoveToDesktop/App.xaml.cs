@@ -237,7 +237,7 @@ namespace MoveToDesktop
 					break;
 				case Command.Type.NormalStartup:
 				default:
-					if (Settings.FirstTime)
+					if (!Settings.FirstTime)
 					{
 						mainWindow.ShowInTaskbar = false;
 						mainWindow.WindowState = WindowState.Minimized;
